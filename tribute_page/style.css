@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merienda:wght@300&family=Poppins:wght@200;300;400&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Merienda", cursive;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.main-container {
+  background-color: antiquewhite;
+  width: 900px;
+  /* height: 100vh; */
+  border: 10px solid blue;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: 20%;
+}
+.title-text h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+.title-text h4 {
+  font-size: 30px;
+  text-align: end;
+}
+.title-text {
+  margin-bottom: 60px;
+}
+
+.image > img {
+  margin: 20% 20%;
+  height: 400px;
+  width: 300px;
+  border-radius: 20%;
+}
+
+.content,
+.bottom {
+  margin: 10% 10%;
+}
+.bottom p {
+  text-align: right;
+}
